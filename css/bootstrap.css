@@ -318,6 +318,7 @@ a:focus {
 
 .span6 {
   width: 460px;
+  float: none;
 }
 
 .span5 {

@@ -1,12 +1,41 @@
       body {
-        padding-top: 20px;
-        padding-bottom: 40px;
+        display: compact;
+        font: 13px/18px "Helvetica Neue";
+        color: white;
+      }
+
+      #gallery-background {
+        position: absolute;
+
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        background-image: url('../img/goldengate.jpg');
+        background-size: cover;
+        background-repeat:no-repeat;
+        -webkit-filter: blur(7px);
       }
 
       /* Custom container */
       .container-narrow {
         margin: 0 auto;
-        max-width: 700px;
+        max-width: 100%;
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+      }
+      .nav {
+        max-width: 100%;
+        height: 50px;
+        margin: 0px 50px 0px 50px;
+      }
+      .logo {
+        color: white;
+      }
+      .nav .logo {
+        float: left;
       }
       .container-narrow > hr {
         margin: 30px 0;
@@ -14,22 +43,80 @@
 
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 60px 0;
+        margin: 60px 0 40px 0;
         text-align: center;
+        text-shadow: 0 2px grey;
       }
       .jumbotron h1 {
-        font-size: 72px;
+        font-size: 50px;
         line-height: 1;
       }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
+      .jumbotron h2 {
+        font-size: 20px;
+        line-height: 1.5;
+        max-width: 67.9%;
+        margin-left: 16.05%;
+      }
+      .value-props {
+        max-width: 30%;
+        margin-left: 20%;
+        float: left;
+        text-shadow: 0 2px grey;
+      }
+      .value-props .advice {
+        margin-bottom: 25px;
+      }
+      .value-props .recommendations {
+        margin-bottom: 25px;
+      }
+      .value-props .answers {
+        margin-bottom: 25px;
+      }
+      .user_info {
+        background: white;
+        float: right;
+        padding: 20px;
+        margin-right: 12%;
+        margin-top: 4.5%;
+        display: block;
+        position: relative;
+        -webkit-border-radius: 5px;
+      }
+      .user_info p {
+        color: grey;
+        margin: 0 0 12px 0;
+      }
+      .user_info #name {
+        width: 31%;
+        float: left;
+        margin-bottom: 12px;
+      }
+      .user_info #email_address {
+        float: right;
+        width: 59%;
+      }
+      .user_info .btn {
+        font-size: 16px;
+        padding: 8px 36px;
       }
 
       /* Supporting marketing content */
       .marketing {
-        margin: 60px 0;
+        margin: 30px 0;
       }
       .marketing p + h4 {
-        margin-top: 28px;
+        margin-top: 40px;
+      }
+
+      .signup {
+        margin: 80px 0 8px 0;
+        text-align: center;
+      }
+      .signup {
+        margin: 80px 0 80px 0;
+        text-align: center;
+      }
+      .signup .btn {
+        font-size: 20px;
+        padding: 12px 22px;
       }

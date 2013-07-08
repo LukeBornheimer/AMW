@@ -1,0 +1,194 @@
+      /* apply a natural box layout model to all elements */
+      * {
+        -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+      }
+      body {
+        display: compact;
+        font: 13px/18px "Helvetica Neue";
+        color: white;
+      }
+
+      #gallery-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url('../img/goldengate');
+        background-size: cover;
+        background-repeat:no-repeat;
+      }
+
+      /* Custom container */
+      .container-fluid {
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        overflow: hidden;
+        text-shadow: 0 2px grey;
+      }
+      .navbar {
+        border-bottom: 2px solid rgba(255,255,255,.8);
+        padding: 10px 0 10px 0;
+      }
+      .navbar .brand {
+        color: white;
+        text-shadow: none;
+      }
+      .navbar .nav .active {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .navbar-inner {
+        background: transparent;
+        background-image: none;
+        border: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        filter: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+      .navbar .brand {
+        font-size: 24px;
+      }
+      .navbar .nav {
+        float:right;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0 40px 0;
+        text-align: center;
+        text-shadow: 0 2px grey;
+        padding-top: 5%;
+        padding-bottom: 10%;
+      }
+      .jumbotron h1 {
+        font-size: 50px;
+        line-height: 1;
+      }
+      .jumbotron h2 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      ul {
+        list-style: none;
+      }
+      ul img {
+        float: left;
+      }
+      ul li {
+        width: 400px;
+        margin-bottom: 40px;
+      }
+      .adviceiconbox {
+        width: 108px;
+        float: left;
+      }
+      .answersiconbox {
+        width: 108px;
+        float: left;
+      }
+      .recommendationsiconbox {
+        width: 108px;
+        float: left;
+      }
+      .advice img {
+        height: 64px;
+        margin-top: 3px;
+        margin-left: 19px;
+      }
+      .recommendationsicon img {
+        height: 65px;
+        margin-top: 3px;
+        margin-left: 27px;
+      }
+      .recommendations {
+        width: 290px;
+      }
+      .answers img {
+        height: 86px;
+        padding-right: 14px;
+        margin-left: -13px;
+      }
+      .answersicon img {
+        height: 60px;
+        margin-top: 3px;
+      }
+      .answers {
+        width: 272px;
+      }
+      .valueprops {
+        margin: 0 auto;
+      }
+      .valueprops .advice {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .recommendationsicon {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .answersicon {
+        margin: auto auto 25px auto;
+      }
+      .user_info {
+        background: rgb(224, 229, 231);
+        padding: 15px;
+        width: 332px;
+        margin: 0 auto;
+        position: relative;
+        -webkit-border-radius: 5px;
+        text-shadow: none;
+      }
+      .user_info p {
+        color: grey;
+        margin: 0 0 12px 0;
+      }
+      .user_info .first_name #name {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .email #email_address {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .btn {
+        font-size: 16px;
+        padding: 8px 17px;
+      }
+      .howitworks {
+        margin-top: 20px;
+      }
+      .howitworks h4 {
+        text-align: center;
+      }
+      .howitworks ol {
+        margin-left: 100px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 30px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 40px;
+      }
+
+      .signup {
+        margin: 80px 0 8px 0;
+        text-align: center;
+      }
+      .signup {
+        margin: 80px 0 80px 0;
+        text-align: center;
+      }
+      .signup .btn {
+        font-size: 20px;
+        padding: 12px 22px;
+      }

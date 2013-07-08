@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Template &middot; Bootstrap</title>
+    <title>AcquaintMeWith — SF</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -21,55 +21,77 @@
 
   <body>
 
+  	<div id="gallery-background">
+  	</div>
+
     <div class="container-narrow">
 
-      <div class="masthead">
+      <div class="navbar">
+        <a class="brand" href="/home">AcquaintMeWith—SF</a>
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
-        <h3 class="muted">Project name</h3>
+      
       </div>
 
-      <hr>
+      <!--<hr>-->
 
       <div class="jumbotron">
-        <h1>Super awesome marketing speak!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <a class="btn btn-large btn-success" href="#">Sign up today</a>
-      </div>
-
-      <hr>
-
-      <div class="row-fluid marketing">
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        <h1>Experience San Francisco Like A Local</h1>
+        <!--<h2 class="lead">AcquaintMeWith connects you with a like-minded local expert in SF who gives you travel and neighborhood advice, local recommnedations and real-time answers for your visit.</h2>-->
+        <h2 class="lead">AcquaintMeWith connects travelers to like-minded locals for recommendations and advice.</h2>
+	  </div>
+	  
+	  <section class="value-props">
+        <div class="advice">
+          <h4>Travel & Neighborhood Advice</h4>
+          <p>Wondering what the best week is best for you to visit, or what neighborhood to stay in? Your local knows that.</p>
         </div>
 
-        <div class="span6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        <div class="recommendations">
+          <h4>Local Recommendations</h4>
+          <p>Looking for a great hole-in-the-wall spot for dinner or the local's coffee shop? Your local has you covered.</p>
         </div>
-      </div>
 
-      <hr>
+        <div class="answers">
+          <h4>Real-Time Answers</h4>
+          <p>When you're exploring SF and have a question, your local expert (and an answer to your question is just a text away.</p>
+       </div>
+	  </section>
+
+	  <section class="steps">
+          <ul>
+          	<li><h4>Step 1</h4>
+       		</li>
+          	<li><h4>Step 2</h4>
+          	</li>
+          	<li><h4>Step 3</h4>
+          	</li>
+          </ul>
+        </section>
+
+	  <form class="user_info">
+		  <p>Enter your info below and your local will message you shortly:</p>
+		  <div class="first_name">
+		  	<input id="name" name="name" placeholder="Your First Name" type="text" value="">
+		  </div>
+		  <!---<div class="last_name">
+		  	<input id="name" name="name" placeholder="Your Last Name" type="text" value="">
+		  </div>-->
+		  <div class="email">
+		  	<input id="email_address" name="email_address" placeholder="Your Email Address" type="text" value="">
+		  </div>
+	      <a class="btn btn-large btn-success" href="/success">Get local advice and recommendations!</a>
+	   </form>
+
+</div>
+
+<hr>
 
       <div class="footer">
-        <p>&copy; Company 2013</p>
+        <p>&copy; AcquaintMeWith 2013</p>
       </div>
 
     </div> <!-- /container -->
