@@ -100,6 +100,302 @@
       }
       .advice img {
         height: 64px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+      }
+      .recommendationsicon img {
+        height: 65px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+      }
+      .recommendations {
+        width: 290px;
+      }
+      .answers img {
+        height: 86px;
+        padding-right: 14px;
+        margin-left: -13px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+      }
+      .answersicon img {
+        height: 60px;
+        float: none;
+        margin: 0 auto;
+        display: block;
+      }
+      .answers {
+        width: 272px;
+      }
+      .valueprops {
+        margin: 0 auto;
+      }
+      .valueprops h4 {
+      margin-bottom: 5px;
+      }
+      .valueprops .advice {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .recommendationsicon {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .answersicon {
+        margin: auto auto 25px auto;
+      }
+      .testimonial {
+        float: none;
+        background: rgba(188, 190, 190, .4);
+        padding: 15px;
+        width: 352px;
+        margin: 0 auto;
+        position: relative;
+        -webkit-border-radius: 5px;
+        text-shadow: none;
+      }
+      .testimonial p {
+        margin: 0 auto;
+      }
+      .info .price {
+        text-align: center;
+        font-size: 18px;
+        margin: 15px 0 20px 0;
+      }
+      .user_info {
+        background: rgb(224, 229, 231);
+        padding: 15px;
+        width: 352px;
+        margin: 0 auto;
+        position: relative;
+        -webkit-border-radius: 5px;
+        text-shadow: none;
+      }
+      .user_info p {
+        color: rgba(41, 41, 41, 0.8);
+        margin: 0 0 12px 0;
+      }
+      .user_info .first_name #name {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .email #email_address {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .start #arrival_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: left;
+      }
+      .end #departure_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: right;
+      }
+      .user_info .referal_source #referrer {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .btn {
+        font-size: 16px;
+        padding: 8px 57.5px;
+      }
+      #customButton {
+        font-size: 16px;
+        border-width: 1px;
+        padding: 8px 57.5px;
+        background: #1275ff;
+        background-image: -webkit-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -moz-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -ms-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -o-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .user_info .emaildisclaimer {
+        color: rgba(122, 122, 122, 0.7);
+        text-align: center;
+        margin: 10px 0 0 0;
+      }
+      .howitworks {
+        margin-top: 20px;
+      }
+      .howitworks h4 {
+        text-align: center;
+      }
+      .howitworks ol {
+        margin-left: 100px;
+      }
+      footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 44px;
+        margin-top: 0;
+        padding-bottom: 0;
+        left: 0;
+        background-color: rgba(247, 247, 247, 0.6);
+      }
+      footer .nav_wrapper {
+        width: 100%
+      }
+      footer #navlist {
+        padding-top: 13px;
+        margin-left: 18px;
+        float: left;
+      }
+      footer #navlist li {
+        display: inline;
+        list-style-type: none;
+        padding: 0 1em 0 1em; 
+      }
+      footer #navlist a {
+        color: rgba(0,0,0,0.6);
+      }
+      footer p {
+        padding-top: 14px;
+        margin-right: 14px;
+        float: right;
+        color: rgba(0,0,0,0.6);
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 30px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 40px;
+      }
+
+      .signup {
+        margin: 80px 0 8px 0;
+        text-align: center;
+      }
+      .signup {
+        margin: 80px 0 80px 0;
+        text-align: center;
+      }
+      .signup .btn {
+        font-size: 20px;
+        padding: 12px 22px;
+      }
+
+      /*** media queries ***/
+
+      /* Large desktop */
+      @media (min-width: 1200px) {
+      body {
+        display: compact;
+        font: 13px/18px "Helvetica Neue";
+        color: white;
+      }
+
+      #gallery-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url('../img/goldengate');
+        background-size: cover;
+        background-repeat:no-repeat;
+      }
+
+      /* Custom container */
+      .container-fluid {
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        overflow: hidden;
+        text-shadow: 0 2px rgba(0,0,0,.5);
+      }
+      .navbar {
+        border-bottom: 2px solid rgba(255,255,255,.8);
+        padding: 10px 0 10px 0;
+      }
+      .navbar .brand {
+        color: white;
+        text-shadow: none;
+      }
+      .navbar .nav .active {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .navbar-inner {
+        background: transparent;
+        background-image: none;
+        border: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        filter: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+      .navbar .brand {
+        font-size: 24px;
+      }
+      .navbar .nav {
+        float:right;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 55px 0 30px 0;
+        text-align: center;
+        text-shadow: 0 2px rgba(0,0,0,.5);
+        padding-top: 3%;
+        padding-bottom: 9%;
+      }
+      .jumbotron h1 {
+        font-size: 50px;
+        line-height: 1;
+      }
+      .jumbotron h2 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      ul {
+        list-style: none;
+      }
+      ul img {
+        float: left;
+      }
+      ul li {
+        width: 364px;
+        margin-bottom: 40px;
+      }
+      .adviceiconbox {
+        width: 78px;
+        float: left;
+      }
+      .answersiconbox {
+        width: 78px;
+        float: left;
+      }
+      .recommendationsiconbox {
+        width: 78px;
+        float: left;
+      }
+      .advice img {
+        height: 64px;
       }
       .recommendationsicon img {
         height: 65px;
@@ -193,7 +489,26 @@
       }
       .user_info .btn {
         font-size: 16px;
-        padding: 8px 72px;
+        padding: 8px 57.5px;
+      }
+      #customButton {
+        font-size: 16px;
+        border-width: 1px;
+        padding: 8px 57.5px;
+        background: #1275ff;
+        background-image: -webkit-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -moz-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -ms-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -o-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
       }
       .user_info .emaildisclaimer {
         color: rgba(122, 122, 122, 0.7);
@@ -210,12 +525,13 @@
         margin-left: 100px;
       }
       footer {
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         height: 44px;
         margin-top: 0;
         padding-bottom: 0;
+        left: 0;
         background-color: rgba(247, 247, 247, 0.6);
       }
       footer .nav_wrapper {
@@ -229,7 +545,7 @@
       footer #navlist li {
         display: inline;
         list-style-type: none;
-        padding-right: 20px;
+        padding: 0 1em 0 1em; 
       }
       footer #navlist a {
         color: rgba(0,0,0,0.6);
@@ -261,3 +577,802 @@
         font-size: 20px;
         padding: 12px 22px;
       }
+      }
+       
+      /* Portrait tablet to landscape and desktop */
+      @media (min-width: 768px) and (max-width: 979px) {
+      body {
+        display: compact;
+        font: 13px/18px "Helvetica Neue";
+        color: white;
+      }
+
+      #gallery-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url('../img/goldengate');
+        background-size: cover;
+        background-repeat:no-repeat;
+      }
+
+      /* Custom container */
+      .container-fluid {
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        overflow: hidden;
+        text-shadow: 0 2px rgba(0,0,0,.5);
+      }
+      .navbar {
+        border-bottom: 2px solid rgba(255,255,255,.8);
+        padding: 10px 0 10px 0;
+      }
+      .navbar .brand {
+        color: white;
+        text-shadow: none;
+      }
+      .navbar .nav .active {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .navbar-inner {
+        background: transparent;
+        background-image: none;
+        border: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        filter: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+      .navbar .brand {
+        font-size: 24px;
+      }
+      .navbar .nav {
+        float:right;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 55px 0 30px 0;
+        text-align: center;
+        text-shadow: 0 2px rgba(0,0,0,.5);
+        padding-top: 3%;
+        padding-bottom: 9%;
+      }
+      .jumbotron h1 {
+        font-size: 50px;
+        line-height: 1;
+      }
+      .jumbotron h2 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      ul {
+        list-style: none;
+      }
+      ul img {
+        float: left;
+      }
+      ul li {
+        width: 364px;
+        margin-bottom: 40px;
+      }
+      .adviceiconbox {
+        width: 78px;
+        float: left;
+      }
+      .answersiconbox {
+        width: 78px;
+        float: left;
+      }
+      .recommendationsiconbox {
+        width: 78px;
+        float: left;
+      }
+      .advice img {
+        height: 64px;
+      }
+      .recommendationsicon img {
+        height: 65px;
+      }
+      .recommendations {
+        width: 290px;
+      }
+      .answers img {
+        height: 86px;
+        padding-right: 14px;
+        margin-left: -13px;
+      }
+      .answersicon img {
+        height: 60px;
+      }
+      .answers {
+        width: 272px;
+      }
+      .valueprops {
+        margin: 0 auto;
+      }
+      .valueprops h4 {
+      margin-bottom: 5px;
+      }
+      .valueprops .advice {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .recommendationsicon {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .answersicon {
+        margin: auto auto 25px auto;
+      }
+      .testimonial {
+        float: none;
+        background: rgba(188, 190, 190, .4);
+        padding: 15px;
+        width: 352px;
+        margin: 0 auto;
+        position: relative;
+        -webkit-border-radius: 5px;
+        text-shadow: none;
+      }
+      .testimonial p {
+        margin: 0 auto;
+      }
+      .info .price {
+        text-align: center;
+        font-size: 18px;
+        margin: 15px 0 20px 0;
+      }
+      .user_info {
+        background: rgb(224, 229, 231);
+        padding: 15px;
+        width: 352px;
+        margin: 0 auto;
+        position: relative;
+        -webkit-border-radius: 5px;
+        text-shadow: none;
+      }
+      .user_info p {
+        color: rgba(41, 41, 41, 0.8);
+        margin: 0 0 12px 0;
+      }
+      .user_info .first_name #name {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .email #email_address {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .start #arrival_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: left;
+      }
+      .end #departure_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: right;
+      }
+      .user_info .referal_source #referrer {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .btn {
+        font-size: 16px;
+        padding: 8px 57.5px;
+      }
+      #customButton {
+        font-size: 16px;
+        border-width: 1px;
+        padding: 8px 57.5px;
+        background: #1275ff;
+        background-image: -webkit-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -moz-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -ms-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -o-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .user_info .emaildisclaimer {
+        color: rgba(122, 122, 122, 0.7);
+        text-align: center;
+        margin: 10px 0 0 0;
+      }
+      .howitworks {
+        margin-top: 20px;
+      }
+      .howitworks h4 {
+        text-align: center;
+      }
+      .howitworks ol {
+        margin-left: 100px;
+      }
+      footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 44px;
+        margin-top: 0;
+        padding-bottom: 0;
+        left: 0;
+        background-color: rgba(247, 247, 247, 0.6);
+      }
+      footer .nav_wrapper {
+        width: 100%
+      }
+      footer #navlist {
+        padding-top: 13px;
+        margin-left: 18px;
+        float: left;
+      }
+      footer #navlist li {
+        display: inline;
+        list-style-type: none;
+        padding: 0 1em 0 1em; 
+      }
+      footer #navlist a {
+        color: rgba(0,0,0,0.6);
+      }
+      footer p {
+        padding-top: 14px;
+        margin-right: 14px;
+        float: right;
+        color: rgba(0,0,0,0.6);
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 30px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 40px;
+      }
+
+      .signup {
+        margin: 80px 0 8px 0;
+        text-align: center;
+      }
+      .signup {
+        margin: 80px 0 80px 0;
+        text-align: center;
+      }
+      .signup .btn {
+        font-size: 20px;
+        padding: 12px 22px;
+      }  
+      }
+       
+      /* Landscape phone to portrait tablet */
+      @media (max-width: 767px) {
+      body {
+        display: compact;
+        font: 13px/18px "Helvetica Neue";
+        color: white;
+      }
+
+      #gallery-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        background-image: url('../img/goldengate');
+        background-size: cover;
+        background-repeat:no-repeat;
+      }
+
+      /* Custom container */
+      .container-fluid {
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        overflow: hidden;
+        text-shadow: 0 2px rgba(0,0,0,.5);
+      }
+      .navbar {
+        border-bottom: 2px solid rgba(255,255,255,.8);
+        padding: 10px 0 10px 0;
+      }
+      .navbar .brand {
+        color: white;
+        text-shadow: none;
+      }
+      .navbar .nav .active {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .navbar-inner {
+        background: transparent;
+        background-image: none;
+        border: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        filter: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+      .navbar .brand {
+        font-size: 24px;
+      }
+      .navbar .nav {
+        float:right;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 55px 0 30px 0;
+        text-align: center;
+        text-shadow: 0 2px rgba(0,0,0,.5);
+        padding-top: 3%;
+        padding-bottom: 9%;
+      }
+      .jumbotron h1 {
+        font-size: 50px;
+        line-height: 1;
+      }
+      .jumbotron h2 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      ul {
+        list-style: none;
+      }
+      ul img {
+        float: left;
+      }
+      ul li {
+        width: 364px;
+        margin-bottom: 40px;
+      }
+      .adviceiconbox {
+        width: 78px;
+        float: left;
+      }
+      .answersiconbox {
+        width: 78px;
+        float: left;
+      }
+      .recommendationsiconbox {
+        width: 78px;
+        float: left;
+      }
+      .advice img {
+        height: 64px;
+      }
+      .recommendationsicon img {
+        height: 65px;
+      }
+      .recommendations {
+        width: 290px;
+      }
+      .answers img {
+        height: 86px;
+        padding-right: 14px;
+        margin-left: -13px;
+      }
+      .answersicon img {
+        height: 60px;
+      }
+      .answers {
+        width: 272px;
+      }
+      .valueprops {
+        margin: 0 auto;
+      }
+      .valueprops h4 {
+      margin-bottom: 5px;
+      }
+      .valueprops .advice {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .recommendationsicon {
+        margin: auto auto 25px auto;
+      }
+      .valueprops .answersicon {
+        margin: auto auto 25px auto;
+      }
+      .testimonial {
+        float: none;
+        background: rgba(188, 190, 190, .4);
+        padding: 15px;
+        margin: 0 auto;
+        position: relative;
+        -webkit-border-radius: 5px;
+        text-shadow: none;
+      }
+      .testimonial p {
+        margin: 0 auto;
+      }
+      .info .price {
+        text-align: center;
+        font-size: 18px;
+        margin: 15px 0 20px 0;
+      }
+      .user_info {
+        background: rgb(224, 229, 231);
+        padding: 15px;
+        width: 352px;
+        margin: 0 auto;
+        position: relative;
+        -webkit-border-radius: 5px;
+        text-shadow: none;
+      }
+      .user_info p {
+        color: rgba(41, 41, 41, 0.8);
+        margin: 0 0 12px 0;
+      }
+      .user_info .first_name #name {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .email #email_address {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .start #arrival_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: left;
+      }
+      .end #departure_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: right;
+      }
+      .user_info .referal_source #referrer {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .btn {
+        font-size: 16px;
+        padding: 8px 57.5px;
+      }
+      #customButton {
+        font-size: 16px;
+        border-width: 1px;
+        padding: 8px 57.5px;
+        background: #1275ff;
+        background-image: -webkit-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -moz-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -ms-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -o-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .user_info .emaildisclaimer {
+        color: rgba(122, 122, 122, 0.7);
+        text-align: center;
+        margin: 10px 0 0 0;
+      }
+      .howitworks {
+        margin-top: 20px;
+      }
+      .howitworks h4 {
+        text-align: center;
+      }
+      .howitworks ol {
+        margin-left: 100px;
+      }
+      footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 44px;
+        margin-top: 0;
+        padding-bottom: 0;
+        left: 0;
+        background-color: rgba(247, 247, 247, 0.6);
+      }
+      footer .nav_wrapper {
+        width: 100%
+      }
+      footer #navlist {
+        padding-top: 13px;
+        margin-left: 18px;
+        float: left;
+      }
+      footer #navlist li {
+        display: inline;
+        list-style-type: none;
+        padding: 0 1em 0 1em; 
+      }
+      footer #navlist a {
+        color: rgba(0,0,0,0.6);
+      }
+      footer p {
+        padding-top: 14px;
+        margin-right: 14px;
+        float: right;
+        color: rgba(0,0,0,0.6);
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 30px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 40px;
+      }
+
+      .signup {
+        margin: 80px 0 8px 0;
+        text-align: center;
+      }
+      .signup {
+        margin: 80px 0 80px 0;
+        text-align: center;
+      }
+      .signup .btn {
+        font-size: 20px;
+        padding: 12px 22px;
+      }
+      }
+       
+      /* Landscape phones and down */
+      @media (max-width: 480px) {
+      body {
+        background-color: rgb(226, 227, 228);
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+      #gallery-background {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          z-index: -1;
+          background-image: url('../img/goldengate');
+          background-size: 100%;
+          background-repeat:no-repeat;
+          width: 100%;
+        }
+      .jumbotron {
+        margin: 55px 0 15px 0;
+        text-align: center;
+        text-shadow: 0 2px rgba(0,0,0,.5);
+        padding-top: 3%;
+        padding-bottom: 9%;
+      }
+      .jumbotron h1 {
+        margin-left: -13px;
+        margin-right: -13px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 1;
+      }
+      .jumbotron h2 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        margin-bottom: 0;
+        padding: 0px 10px;
+      }
+      ul {
+        list-style: none;
+      }
+      ul img {
+        float: left;
+      }
+      ul li {
+        width: 300px;
+      }
+      .valueprops li p {
+        margin-bottom: 0;
+      }
+      .valueprops .advice {
+        margin-bottom: 0px;
+      }
+      .adviceiconbox {
+        display: none;
+      }
+      .advice img {
+        height: 64px;
+      }
+      .recommendationsiconbox {
+        display: none;
+      }
+      .valueprops .recommendationsicon {
+        margin-bottom: 0px;
+      }
+      .recommendations {
+        width: 290px;
+      }
+      .valueprops .answersicon {
+        margin-bottom: 20px;
+      }
+      .answersiconbox {
+        display: none;
+      }
+      .answers img {
+        height: 86px;
+        padding-right: 14px;
+        margin-left: -13px;
+      }
+      .answersicon img {
+        height: 60px;
+      }
+      .answers {
+        width: 272px;
+      }
+      .valueprops {
+        margin: 0 auto;
+      }
+      .valueprops h4 {
+        margin-bottom: 5px;
+        color: black;
+        text-shadow: none;
+      }
+      .valueprops p {
+        color: black;
+        text-shadow: none;
+      }
+      .testimonial {
+        float: none;
+        background: rgba(188, 190, 190, .4);
+        padding: 15px;
+        width: 100%;
+        margin-top: -10px;
+        position: relative;
+        color: black;
+        text-shadow: none;
+        background-color: white;
+        -webkit-border-radius: 0px;
+      }
+      .testimonial p {
+        margin: 0 auto;
+      }
+      .info .price {
+        text-align: center;
+        font-size: 17px;
+        margin: 10px 0 10px 0;
+        color: black;
+        text-shadow: none;
+      }
+      .user_info {
+        background: rgb(224, 229, 231);
+        margin: 0 auto;
+        position: relative;
+        text-shadow: none;
+        width: 100%;
+        -webkit-border-radius: 0px;
+      }
+      .user_info p {
+        color: rgba(41, 41, 41, 0.8);
+        margin: 0 0 12px 0;
+      }
+      .user_info .first_name #name {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .email #email_address {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .start #arrival_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: left;
+      }
+      .end #departure_date {
+        width: 49%;
+        padding: 16px 10px;
+        height: 0;
+        float: right;
+      }
+      .user_info .referal_source #referrer {
+        width: 100%;
+        padding: 16px 10px;
+        height: 0;
+      }
+      .user_info .btn {
+        font-size: 16px;
+        padding: 8px 37px;
+        width: 100%;
+      }
+      #customButton {
+        font-size: 16px;
+        border-width: 1px;
+        padding: 8px 37px;
+        width: 100%;
+        background: #1275ff;
+        background-image: -webkit-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -moz-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -ms-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: -o-linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        background-image: linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4);
+        color: #fff;
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+        -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+      }
+      .user_info .emaildisclaimer {
+        color: rgba(122, 122, 122, 0.7);
+        text-align: center;
+        margin: 10px 0 0 0;
+      }
+      .howitworks {
+        margin-top: 20px;
+      }
+      .howitworks h4 {
+        text-align: center;
+      }
+      .howitworks ol {
+        margin-left: 100px;
+      }
+      footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 44px;
+        margin-top: 0;
+        padding-bottom: 0;
+        left: 0;
+        background-color: rgba(247, 247, 247, 0.6);
+      }
+      footer .nav_wrapper {
+        width: 100%
+      }
+      footer #navlist {
+        padding-top: 13px;
+        margin-left: 5px;
+        float: left;
+      }
+      footer #navlist li {
+        display: inline;
+        list-style-type: none;
+        padding: 0 0.5em 0 0.5em;
+      }
+      footer #navlist a {
+        color: rgba(0,0,0,0.6);
+      }
+      footer p {
+        padding-top: 14px;
+        margin-right: 14px;
+        float: right;
+        color: rgba(0,0,0,0.6);
+      }
+    }
